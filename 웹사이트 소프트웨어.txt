@@ -1,0 +1,22 @@
+5/2
+
+웹사이트를 도와주는 소프트웨어
+
+-컴퓨터     
+-텍스트 편집기(visual studio code)
+-테스트를 위한 웹브라우저(chrome)
+-웹페이지 를 위한 이미지를 만들 수 있는 이미지 편집기(포토샵 등)
+-서버 파일관리,버전 관리시스템,프로젝트 협업,코드 공유(git hub)
+-코드 압축과 테스트 등 반복작업을 자동으로 수행하기 위한 자동화 시스템 (grunt,gulp)
+-템플릿,라이브러리,기타 등등
+
+필수
+컴퓨터,편집기,브라우저
+++ 로컬 웹서버 설치.(후에 나중에)
+https://developer.mozilla.org/ko/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
+.
+
+
+
+
+
