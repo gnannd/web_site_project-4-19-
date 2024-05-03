@@ -1,0 +1,137 @@
+5/3
+HTML
+HTML(Hypertext Markup Language)
+웹페이지와 그 내용을 구조화 하기 위해 사용하는 코드
+마크업 언어.
+
+
+
+ex) <p>     샬라샬라    </p>
+여는 태그    콘텐츠     닫는태크
+요소는 여는 태크와 닫는 태크 그리고 콘탠츠로 이루어짐.
+
+요소는 속성을 넣을 수 있음
+ex) <p class="editor-note">My cat is very grumpy</p>
+속성 규칙
+1. 요소이름(또는 요소가 하나 이상 속성을 가지고 있다면 이전 속성)과 속성 사이에 공백이 있어야 함.
+2. 속성 이름뒤에 등호(=)가 와야함.
+3. 속성 값의 앞뒤에 열고 닫는 인용부호 ",' 가 있어야 함.
+
+요소는 중첩해서 넣을 수 있다.
+EX) <p> <storng> 샬라 샬라 </strong> </p>
+
+빈요소
+ex> <img src="/주소" alt="sdsd"/>
+콘텐츠가 없음 (이미지 효과만 주기 위해 콘텐츠 감싸지 않아서)
+
+ex)
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="My test image" />
+  </body>
+</html>
+
+<!doctype html> 
+필수 서문.
+모든 것이 올바르게 동작하게 하기 위해 포함되어야할 것.
+
+<html></html>
+-<html>요소. 페이지 전체의 콘텐츠를 감싸며, 루트 요소라고 함.
+
+<head></head>
+-<head>요소. 페이지를 조회하는 사람들에게 보여주는 콘텐츠가 아님.
+HTML페이지에 포함하고 싶어하는 모든 재료들을 위한 컨테이너 역할을 함.
+keywords에 표시되길 원하는 페이지 설명, 콘테를 꾸미기위한 CSS, 문자집합 선언등과 같은 것들을 포함.
+
+<meta charset="utf-8">
+인간의 방대한 주류 기록언에 있는 대부분의 문자가 포함 되어있는 utf-8
+문서가 사용해야 할 문자집합을  utf-8로 설정.
+이렇게 설정해야 왠만한 문자 콘텐츠 다 다루고 나중에 발생할 문제도 피할 수 있음.
+
+<meta name="viewport" content="width=device-width">
+뷰포트의 너비에서 페이지가 렌더링하도록하며, 
+모바일 브라우저가 뷰포트보다 넓은 페이지를 렌더링한 후 축소하는 것을 방지
+
+<title></title>
+페이지 제목 설정. 로드된 페이지 브라우저의 탭에 나타나는 제목.
+이 요소는 북마크나 즐겨찾기에서 페이지를 설명하는 것으로도 사용.
+
+<body></body>
+페이지에 방문한 모든 웹 사용자들에게 보여주길 원하는 모든 컨텐트를 담고 있음.
+
+
+이미지
+ex>
+<img src="images/firefox-icon.png" alt="My test image" />
+
+src속성을 통해 파일 경로
+alt(대안)속성을 통해 어떤 이유(시각 장애, 뭔가 잘못되어 이미지 표시 못할 경우)로 
+이미지 볼 수 없는 사용자들을 위한 설명 텍스트를 지정.
+이미지가 떠올리게하는 충분한 정보를 표시해야함. 
+
+ <!-- 과 --> : 주석
+
+<문자 나타내기>
+
+<h1> </h1>
+<h2> </h2>
+.		:제목 크기 설정.
+.
+.
+<h6> </h6> 
+
+<p> </p> : 문자의 문단을 포함하기 위한 것. 일반적인 문자 내용을 나타낼 떄 많이 사용.
+
+
+<목록>
+
+ex>
+<p>At Mozilla, we’re a global community of</p>
+
+<ul>
+  <li>technologists</li>
+  <li>thinkers</li>
+  <li>builders</li>
+</ul>
+
+
+<p>working together ...</p>
+
+<ul>순서없는 목록 나타낼때.
+<ol>순서있는 목록 나타낼 때.
+<li> :  목록의 각 항목은 <li>요소안에 놓여야함.
+
+<링크>
+ex)
+<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
+    연결하기 원하는 웹주소        
+https:// 또는 http:// 제대로 붙였는지 주의
+href는 hypertext reference(하이퍼 텍스트 참조)를 의미.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
